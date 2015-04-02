@@ -17,7 +17,7 @@ portable pypy 2.7 release
 
 
 %prep
-%setup -q
+%setup -q -n pypy-%{version}-linux_x86_64-portable
 
 %build
 
