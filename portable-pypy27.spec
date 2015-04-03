@@ -3,7 +3,7 @@
 
 Name: portable-pypy27
 Version: 2.5.1
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: https://github.com/squeaky-pl/portable-pypy
 
 License: MIT
@@ -20,6 +20,8 @@ portable pypy 2.7 release
 %setup -q -n pypy-%{version}-linux_x86_64-portable
 
 %build
+ln -s pypy bin/python
+ln -s pypy bin/python2.7
 
 %install
 rm -rf $RPM_BUILD_ROOT
