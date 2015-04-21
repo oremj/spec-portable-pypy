@@ -36,6 +36,9 @@ cp -rp lib_pypy $RPM_BUILD_ROOT/opt/pypy27/.
 cp -rp lib-python $RPM_BUILD_ROOT/opt/pypy27/.
 cp -rp site-packages $RPM_BUILD_ROOT/opt/pypy27/.
 
+ln -s pypy $RPM_BUILD_ROOT/opt/pypy27/bin/python
+ln -s pypy $RPM_BUILD_ROOT/opt/pypy27/bin/python2.7
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
