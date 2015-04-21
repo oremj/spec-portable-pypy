@@ -19,7 +19,7 @@ BuildRequires: gcc, make, libffi-devel, pkgconfig, zlib-devel, bzip2-devel, ncur
 pypy 2.7 release
 
 %prep
-%setup -q
+%setup -q -n pypy-%{version}-src
 
 %build
 pypy rpython/bin/rpython --make-jobs=4 -Ojit pypy/goal/targetpypystandalone.py
