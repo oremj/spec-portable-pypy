@@ -2,8 +2,8 @@
 %global __strip /bin/true
 
 Name: portable-pypy27
-Version: 2.5.1
-Release: 2%{?dist}
+Version: 2.5.1-1
+Release: 1%{?dist}
 Summary: https://github.com/squeaky-pl/portable-pypy
 
 License: MIT
