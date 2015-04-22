@@ -4,7 +4,7 @@
 
 Name: pypy27
 Version: 2.5.1
-Release: 1%{?dist}
+Release: 2%{?dist}
 Summary: pypy
 
 License: MIT
@@ -31,6 +31,7 @@ rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/opt/pypy27/bin
 
 cp -p pypy-c $RPM_BUILD_ROOT/opt/pypy27/bin/pypy
+cp -p libpypy-c.so $RPM_BUILD_ROOT/opt/pypy27/bin/.
 
 cp -rp include $RPM_BUILD_ROOT/opt/pypy27/.
 cp -rp lib_pypy $RPM_BUILD_ROOT/opt/pypy27/.
