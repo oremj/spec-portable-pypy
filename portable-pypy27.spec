@@ -8,7 +8,7 @@ Summary: https://github.com/squeaky-pl/portable-pypy
 
 License: MIT
 URL: https://github.com/squeaky-pl/portable-pypy
-Source0: https://bitbucket.org/squeaky/portable-pypy/downloads/pypy-%{version}-1-linux_x86_64-portable.tar.bz2
+Source0: https://bitbucket.org/squeaky/portable-pypy/downloads/pypy-%{version}-linux_x86_64-portable.tar.bz2
 
 AutoReqProv: no
 
